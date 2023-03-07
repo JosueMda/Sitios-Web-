@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Preguntas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/skate-brand" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/abcya" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
+                
+                
+</head>
+<body onload = "comenzarTiempo()"> 
+    <header>
+        <h1>COMENZAMOS CON LAS PREGUNTAS!</h1>
+    </header>
+    <section class="sec1">
+        <div>
+            <p>1- ¿Quien fue el discipulo mas importante del filósofo Socrates?</p>
+            <input type="text" placeholder="Escribe aquí" id="resp1">
+        </div>
+        <div>
+            <p>2- ¿Cuánto es la raiz cuadrada de 25 por 4?</p>
+            <input type="text" placeholder="Escribe aquí" id="resp2">
+        </div>
+        <div>
+            <p>3- ¿Qué autor argentino escribio el libro "Rayuela?</p>
+            <input type="text" placeholder="Escribe aquí" id="resp3">
+        </div>
+        <div>
+            <p>4- ¿Quien fue el presidente de Argentina en la vuelta de la democracia?</p>
+            <input type="text" placeholder="Escribe aquí" id="resp4">
+        </div>
+        <div>
+            <p>5- Según Shakira ¿Por qué cambio su Rolex Piqué?</p>
+            <input type="text" placeholder="Escribe aquí" id="resp5">
+        </div>
+    </section>    
+    <section class="botones">
+        <div>
+            <button id="boton1" onclick="respuestas()">Finalizar</button>
+        </div>
+        <div>
+            <button id="boton2" onclick="volverIntentar()">Volver a intentar</button>
+        </div>
+    </section>
+    <section>
+        <p class="tiempo">TIEMPO</p>
+        <h2 id="cuenta">30</h2>
+    </section>
+    <audio id="audioFinal">
+        <source src="gameover.mp3" type="audio/mpeg">
+        sonido no habilitado 
+    </audio>
+    <audio id="winner">
+        <source src="win.mp3" type="audio/mpeg">
+        sonido no habilitado 
+    </audio>
+    <script src="codigo.js">
+
+        
+    </script>
+</body>
+</html>

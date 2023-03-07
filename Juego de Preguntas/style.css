@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-image: url("fondo.jpg");
+}
+h1{
+    font-family: 'Skate Brand', sans-serif;
+    color: rgb(229, 209, 33);
+    font-size: 4rem;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 1rem;
+    margin-top: 2.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.sec1 p{
+    font-family: 'ABCYa', sans-serif;                                      
+}
+#boton1{
+    background-color: rgb(37, 227, 37);
+    border-color: white;
+}
+#boton2{
+    background-color: red;
+    border-color: white;
+}
+.tiempo{
+    font-family: 'Digital-7 Mono', sans-serif;
+    margin-bottom: 5px;
+}
+#cuenta {
+    font-family: 'Digital-7', sans-serif;
+    font-size: 4rem;
+    color: rgb(233, 233, 20);
+    margin-top: 0;
+}
