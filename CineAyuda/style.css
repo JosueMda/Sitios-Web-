@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('NetflixSans-Regular.ttf');
+  }
+body{
+    margin: 0;
+    background-image: url("img/pochoclos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.757);
+}
+.fondo{
+    background-color: rgba(240, 248, 255, 0.648);
+    padding-top: 2rem;
+    padding-bottom: 11rem;
+}
+
+h1{
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+    color: #E50914;
+    font-family: 'Netflix Sans', sans-serif;
+}
+
+article{
+    font-size: 1.8rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.757);
+}
+
+section{
+    text-align: center;
+    font-family: 'Domine', serif;
+}
+.facil{
+    font-size: 1.7rem;
+}
+.edad{
+    font-size: 1.3rem;
+}
+#edadusuario{
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+}
+.boton{
+    width: 5rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    background-color: rgba(230, 32, 32, 0.712);
+}
+#peliculaElegida{
+    text-align: center;
+    font-family: 'Netflix Sans', sans-serif;
+    text-transform: uppercase;
+    color: #E50914;
+}

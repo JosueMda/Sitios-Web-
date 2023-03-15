@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <title>CineAyuda</title>
+    <script src="mijavascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon.png">
+
+</head>
+<body>
+    <header>
+        <h1>CINEAYUDA</h1>
+    </header>
+    <div class="fondo">
+        <article>
+            <p>¡Bienvenido a CineAyuda!<br>Un sitio en el que en cuestión de segundos sabrá recomendarte la mejor pelicula que se adapte a tí<br> Podras disfrutar de maravillosas peliculas respondiendo<br>¡SOLO DOS PREGUNTAS!</p><p class="facil">FACIL Y RAPIDO</p>
+        </article>
+        <section>
+
+            <p class="edad">Dinos tu edad</p>
+            <input type="number" min="0" max="100" placeholder="edad" id="edadusuario">
+            <br>
+            <p class="edad">Género favorito</p>
+        </section>
+        <section>
+            <button class="boton" onclick="recomendarDrama()">Drama</button>
+            <button class="boton" onclick="recomendarComedia()">Comedia</button>
+            <br>
+            <button class="boton" onclick="recomendarAccion()">Acción</button>
+            <button class="boton" onclick="recomendarAnimacion()">Animación</button>
+        </section>
+        <br>
+        <h2 id="peliculaElegida"></h2>
+    </div>
+</body>
+</html>
